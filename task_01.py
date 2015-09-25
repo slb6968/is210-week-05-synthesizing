@@ -15,6 +15,17 @@ def get_current_date():
 
     Returns:
         The current date
+
+    Examples:
+        >>> import task_01
+        >>> task_01.CURDATE
+        >>> task_01.get_current_date()
+        datetime.date(2015, 9, 25)
+
+        $ python -i task_01.py
+        2015-09-25
+        >>> CURDATE
+        datetime.date(2015, 9, 25)
     """
     return datetime.date.today()
 
